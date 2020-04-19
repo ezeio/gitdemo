@@ -1,7 +1,47 @@
 Task 1
-1. Create a new file called gitdemo2.txt 
+1. Create a new file called: 
+
+gitdemo_Ify.txt (Ify only)
+gitdemo_Jojo.txt (Jojo only)
+
+#######
+cd ~/gitproject/gitdemo
+touch gitdemo2
+#######
+
 2. Make a change to the file 
+
+#######
+open the file with visual studio code and add a line of text (any text)
+#######
+
 3. Add to the repository on git branch gitdemo2
+
+#######
+git add gitdemo_Ify.txt for Ify and git add gitdemo_Jojo.txt for Jojo
+#######
+
 4. Commmit the change to your local repository (-ma "message")
+
+#######
+git commit -m "First commit for newly added file gitdemo_Ify.txt or gitdemo_Jojo.txt"
+#######
+
 5. Push the changes to the remote branch 
+
+#######
+git push 
+#######
+
 6. Pull the changes and make an edit to the file and perform lines 3-5
+
+#######
+git pull
+#######
+
+----- When you perform git pull, I want you to edit each others files and add the line 
+"I have pull x" where x is the name of the other person's filename.
+For example Jojo will edit Ify's file and add on the second line "I have pulled gitdemo_Ify.txt".
+Ify will edit Jojo's file and add the line "I have pulled gitdemo_Jojo.txt".
+
+Save the file and perform 3 to 5
