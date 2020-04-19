@@ -45,3 +45,8 @@ For example Jojo will edit Ify's file and add on the second line "I have pulled 
 Ify will edit Jojo's file and add the line "I have pulled gitdemo_Jojo.txt".
 
 Save the file and perform 3 to 5
+
+
+youtube tutorial links:
+https://www.youtube.com/watch?v=SWYqp7iY_Tc - 32 minutes
+https://www.youtube.com/watch?v=8KCQe9Pm1kg - 10 minutes
