@@ -1,0 +1,7 @@
+Task 1
+1. Create a new file called gitdemo2.txt 
+2. Make a change to the file 
+3. Add to the repository on git branch gitdemo2
+4. Commmit the change to your local repository (-ma "message")
+5. Push the changes to the remote branch 
+6. Pull the changes and make an edit to the file and perform lines 3-5
