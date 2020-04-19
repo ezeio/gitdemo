@@ -5,8 +5,9 @@ gitdemo_Ify.txt (Ify only)
 gitdemo_Jojo.txt (Jojo only)
 
 #######
-cd ~/gitproject/gitdemo
-touch gitdemo2
+{% comment %} change directory into gitdemo folder and create new file {% endcomment %}
+touch gitdemo_Ify.txt or 
+touch gitdemo_Jojo.txt
 #######
 
 2. Make a change to the file 
@@ -18,13 +19,15 @@ open the file with visual studio code and add a line of text (any text)
 3. Add to the repository on git branch gitdemo2
 
 #######
-git add gitdemo_Ify.txt for Ify and git add gitdemo_Jojo.txt for Jojo
+{% comment %} If you are not on the gitdemo branch, then git checkout gitdemo {% endcomment %}
+git add gitdemo_Ify.txt (for Ify) or 
+git add gitdemo_Jojo.txt (for Jojo)
 #######
 
 4. Commmit the change to your local repository (-ma "message")
 
 #######
-git commit -m "First commit for newly added file gitdemo_Ify.txt or gitdemo_Jojo.txt"
+git commit -m "First commit for newly added file gitdemo_Ify.txt (or gitdemo_Jojo.txt)"
 #######
 
 5. Push the changes to the remote branch 
@@ -36,10 +39,11 @@ git push
 6. Pull the changes and make an edit to the file and perform lines 3-5
 
 #######
+{% comment %} Perform git pull when the other person has edited each other's file {% endcomment %}
 git pull
 #######
 
------ When you perform git pull, I want you to edit each others files and add the line 
+----- When you perform git pull, I want you to edit each other's files and add the line 
 "I have pull x" where x is the name of the other person's filename.
 For example Jojo will edit Ify's file and add on the second line "I have pulled gitdemo_Ify.txt".
 Ify will edit Jojo's file and add the line "I have pulled gitdemo_Jojo.txt".
